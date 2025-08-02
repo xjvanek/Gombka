@@ -191,7 +191,7 @@
         <div class="hidden-section">
             <h2>Moje projekty</h2>
             <div class="project-item">
-                <img src="16166d0542bcc11ef9ff59d0d396adac.webp" alt="Logo gry WLPN" />
+                <img src="[16166d0542bcc11ef9ff59d0d396adac.webp](https://media.discordapp.net/attachments/1270437527626448906/1401164972934828062/16166d0542bcc11ef9ff59d0d396adac.webp?ex=688f4811&is=688df691&hm=fae088fc726038ae592117ff1aa5a78b63a312c6b60299c69c4edc01f16dc1b6&=&format=webp&width=625&height=625)" alt="Logo gry WLPN" />
                 <h3>WLPN</h3>
                 <p>Pracowałem przy tym projekcie jako deweloper i własciciel, jednak obecnie nie jestem już z nim związany.</p>
             </div>
