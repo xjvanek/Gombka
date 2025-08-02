@@ -192,7 +192,7 @@
             <h2>Moje projekty</h2>
             <div class="project-item">
                 <img src="16166d0542bcc11ef9ff59d0d396adac.webp" alt="Logo gry WLPN" />
-                <h3>STRIKER RUMBLE</h3>
+                <h3>WLPN</h3>
                 <p>Pracowałem przy tym projekcie jako deweloper i własciciel, jednak obecnie nie jestem już z nim związany.</p>
             </div>
         </div>
