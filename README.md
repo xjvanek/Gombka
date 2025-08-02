@@ -48,6 +48,16 @@
       border-radius: 12px;
       margin-bottom: 30px;
       box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .project-content {
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+    .project:hover .project-content {
+      opacity: 1;
     }
     iframe {
       width: 100%;
@@ -91,9 +101,11 @@
   <h2>Moje prace:</h2>
 
   <div class="project">
-    <h3>🎮 Projekt: Rzucanie pod GUI</h3>
-    <p>Podpiąłem rzucanie pod GUI – efekt możesz zobaczyć na poniższym wideo:</p>
-    <iframe src="https://www.youtube.com/embed/j-_v_xRv4Y4" allowfullscreen></iframe>
+    <div class="project-content">
+      <h3>🎮 Projekt: Rzucanie pod GUI</h3>
+      <p>Podpiąłem rzucanie pod GUI – efekt możesz zobaczyć na poniższym wideo:</p>
+      <iframe src="https://www.youtube.com/embed/j-_v_xRv4Y4" allowfullscreen></iframe>
+    </div>
   </div>
 </section>
 
@@ -103,3 +115,4 @@
 
 </body>
 </html>
+
