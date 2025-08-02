@@ -58,8 +58,8 @@ porfolio luau scripter
 <body>
 
 <header>
-  <h1>Twoje Imię i Nazwisko</h1>
-  <p>Front-End Developer | Designer | Kreatywny Umysł</p>
+  <h1>Gombka</h1>
+  <p>Luau Scripter | Designer |</p>
 </header>
 
 <nav>
