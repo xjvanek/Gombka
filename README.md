@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
@@ -14,11 +14,41 @@
       font-family: 'Segoe UI', sans-serif;
       background-color: #000;
       color: #fff;
+      overflow-x: hidden;
+      position: relative;
+    }
+    /* Dekoracyjne tło */
+    .bg-shape {
+      position: absolute;
+      border-radius: 50%;
+      background: white;
+      opacity: 0.05;
+      filter: blur(80px);
+      z-index: 0;
+    }
+    .shape1 {
+      width: 300px;
+      height: 300px;
+      top: 100px;
+      left: -100px;
+    }
+    .shape2 {
+      width: 200px;
+      height: 200px;
+      bottom: 150px;
+      right: -50px;
+    }
+    .shape3 {
+      width: 150px;
+      height: 150px;
+      top: 400px;
+      right: 100px;
     }
     header {
       padding: 80px 20px 40px;
       text-align: center;
-      border-bottom: 1px solid #333;
+      position: relative;
+      z-index: 1;
     }
     h1 {
       font-size: 3.5em;
@@ -31,7 +61,8 @@
       justify-content: center;
       gap: 20px;
       padding: 30px 0;
-      background-color: #000;
+      position: relative;
+      z-index: 1;
     }
     .nav-btn {
       background: linear-gradient(to right, #ffffff, #aaaaaa);
@@ -52,13 +83,15 @@
       max-width: 900px;
       margin: auto;
       padding: 40px 20px;
+      position: relative;
+      z-index: 1;
     }
     .hover-wrapper {
-      position: relative;
-      overflow: hidden;
-      background-color: #111; /* jaśniejszy czarny */
+      background-color: #111;
       border-radius: 20px;
       margin-bottom: 40px;
+      overflow: hidden;
+      transition: background-color 0.3s ease;
     }
     .hidden-section {
       opacity: 0;
@@ -68,21 +101,32 @@
     .hover-wrapper:hover .hidden-section {
       opacity: 1;
     }
+    h2, h3 {
+      margin-bottom: 10px;
+    }
     iframe {
-      max-width: 100%;
+      width: 100%;
+      height: 315px;
       border: none;
-      margin-top: 20px;
       border-radius: 10px;
+      margin-top: 20px;
     }
     footer {
       text-align: center;
       padding: 40px 0;
       font-size: 0.9em;
       color: #666;
+      position: relative;
+      z-index: 1;
     }
   </style>
 </head>
 <body>
+
+  <!-- Rozmyte kształty -->
+  <div class="bg-shape shape1"></div>
+  <div class="bg-shape shape2"></div>
+  <div class="bg-shape shape3"></div>
 
   <header>
     <h1>Gombka</h1>
@@ -106,7 +150,7 @@
       <h2>Moje prace:</h2>
       <h3>🎮 Projekt: Rzucanie pod GUI</h3>
       <p>Podpiąłem rzucanie pod GUI – efekt możesz zobaczyć na poniższym wideo:</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/j-_v_xRv4Y4" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/j-_v_xRv4Y4" allowfullscreen></iframe>
     </div>
   </section>
 
