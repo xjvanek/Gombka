@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pl">
 <head>
     <meta charset="UTF-8" />
@@ -135,6 +135,16 @@
             border-radius: 10px;
             margin-top: 20px;
         }
+        .project-item {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .project-item img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
         footer {
             text-align: center;
             padding: 40px 0;
@@ -158,7 +168,7 @@
     <nav>
         <button class="nav-btn" onclick="scrollToSection('o-mnie')">O mnie</button>
         <button class="nav-btn" onclick="scrollToSection('prace')">Moje prace</button>
-        <button class="nav-btn" onclick="scrollToSection('striker-rumble')">STRIKER RUMBLE</button>
+        <button class="nav-btn" onclick="scrollToSection('projekty')">Moje projekty</button>
     </nav>
     <section id="o-mnie" class="hover-wrapper">
         <div class="hidden-section">
@@ -174,17 +184,17 @@
                     <h3>🎮 Projekt: Rzucanie pod GUI</h3>
                     <iframe src="https://www.youtube.com/embed/j-_v_xRv4Y4" allowfullscreen></iframe>
                 </div>
-                <div>
-                    <h3>🎮 Projekt: STRIKER RUMBLE</h3>
-                    <iframe src="https://youtu.be/OOAvHC6hWsk" allowfullscreen></iframe>
-                </div>
             </div>
         </div>
     </section>
-    <section id="striker-rumble" class="hover-wrapper">
+    <section id="projekty" class="hover-wrapper">
         <div class="hidden-section">
-            <h2>STRIKER RUMBLE</h2>
-            <p>Jestem deweloperem i pracuję przy tej grze. Cieszę się, że mogę tworzyć i rozwijać ją razem z zespołem, dodając nowe funkcje i ulepszenia.</p>
+            <h2>Moje projekty</h2>
+            <div class="project-item">
+                <img src="16166d0542bcc11ef9ff59d0d396adac.webp" alt="Logo gry WLPN" />
+                <h3>STRIKER RUMBLE</h3>
+                <p>Pracowałem przy tym projekcie jako deweloper i własciciel, jednak obecnie nie jestem już z nim związany.</p>
+            </div>
         </div>
     </section>
     <footer>
