@@ -8,57 +8,91 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
-      background-color: #111;
-      color: #f0f0f0;
-      line-height: 1.6;
+      background-color: #0d0d0d;
+      color: #fff;
+      overflow-x: hidden;
     }
+
     header {
-      background: linear-gradient(to right, #000, #222);
-      color: white;
-      padding: 60px 20px;
+      background: linear-gradient(135deg, #5e0066, #a000b0);
+      padding: 100px 20px 60px;
       text-align: center;
+      position: relative;
     }
-    h1 {
+
+    header h1 {
+      font-size: 4em;
       margin: 0;
-      font-size: 3em;
-    }
-    nav {
-      text-align: center;
-      background: #1a1a1a;
-      padding: 10px 0;
-    }
-    nav a {
-      margin: 0 15px;
-      text-decoration: none;
-      color: #00bfff;
       font-weight: bold;
-      font-size: 1.1em;
+      color: #fff;
+      letter-spacing: 2px;
     }
-    nav a:hover {
-      text-decoration: underline;
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
     }
+
+    .nav-btn {
+      background: linear-gradient(to right, #800080, #e100ff);
+      border: none;
+      border-radius: 30px;
+      padding: 15px 30px;
+      font-size: 1em;
+      font-weight: bold;
+      color: #fff;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.3s;
+    }
+
+    .nav-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 20px rgba(255, 0, 255, 0.4);
+    }
+
     section {
       max-width: 900px;
       margin: auto;
       padding: 40px 20px;
     }
+
+    .hidden-section {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 30px;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+      box-shadow: 0 0 10px rgba(255, 0, 255, 0.1);
+    }
+
+    .hover-wrapper {
+      cursor: pointer;
+    }
+
+    .hover-wrapper:hover .hidden-section {
+      opacity: 1;
+    }
+
     .project {
       background: #1e1e1e;
       padding: 25px;
       border-radius: 12px;
-      margin-bottom: 30px;
+      margin-top: 30px;
       box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
-      position: relative;
-      overflow: hidden;
       cursor: pointer;
     }
+
     .project-content {
       opacity: 0;
       transition: opacity 0.4s ease;
     }
+
     .project:hover .project-content {
       opacity: 1;
     }
+
     iframe {
       width: 100%;
       height: 400px;
@@ -66,6 +100,7 @@
       border-radius: 10px;
       margin-top: 15px;
     }
+
     footer {
       text-align: center;
       padding: 30px;
@@ -79,26 +114,26 @@
 
 <header>
   <h1>Gombka</h1>
-  <p>Moje portfolio</p>
+  <nav>
+    <button class="nav-btn" onclick="document.getElementById('o-mnie').scrollIntoView({behavior:'smooth'})">ABOUT ME</button>
+    <button class="nav-btn" onclick="document.getElementById('prace').scrollIntoView({behavior:'smooth'})">PROJECT</button>
+  </nav>
 </header>
 
-<nav>
-  <a href="#o-mnie">O mnie</a>
-  <a href="#prace">Moje prace</a>
-</nav>
-
-<section id="o-mnie">
-  <h2>O mnie</h2>
-  <p>
-    Cześć! Nazywam się Gombka. Interesuję się programowaniem, tworzeniem GUI oraz
-    eksperymentowaniem z różnymi technologiami. Lubię uczyć się nowych rzeczy i
-    realizować kreatywne projekty. Skupiam się na praktycznym podejściu do nauki –
-    budując, testując i publikując swoje pomysły.
-  </p>
+<section id="o-mnie" class="hover-wrapper">
+  <div class="hidden-section">
+    <h2>O mnie</h2>
+    <p>
+      Cześć! Nazywam się Gombka. Interesuję się programowaniem, tworzeniem GUI oraz
+      eksperymentowaniem z różnymi technologiami. Lubię uczyć się nowych rzeczy i
+      realizować kreatywne projekty. Skupiam się na praktycznym podejściu do nauki –
+      budując, testując i publikując swoje pomysły.
+    </p>
+  </div>
 </section>
 
 <section id="prace">
-  <h2>Moje prace:</h2>
+  <h2 style="text-align:center; margin-bottom: 20px;">Moje prace:</h2>
 
   <div class="project">
     <div class="project-content">
