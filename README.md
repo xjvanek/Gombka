@@ -1,11 +1,9 @@
-# gombkawportfolio
-porfolio luau scripter
 <!DOCTYPE html>
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Twoje Imię – Portfolio</title>
+  <title>Gombka – Portfolio</title>
   <style>
     body {
       margin: 0;
@@ -59,48 +57,26 @@ porfolio luau scripter
 
 <header>
   <h1>Gombka</h1>
-  <p>Luau Scripter | Designer |</p>
+  <p>Moje portfolio</p>
 </header>
 
 <nav>
-  <a href="#o-mnie">O mnie</a>
-  <a href="#projekty">Projekty</a>
-  <a href="#kontakt">Kontakt</a>
+  <a href="#prace">Moje prace</a>
 </nav>
 
-<section id="o-mnie">
-  <h2>O mnie</h2>
-  <p>Cześć! Nazywam się [Twoje imię]. Zajmuję się projektowaniem i tworzeniem nowoczesnych, responsywnych stron internetowych. Kocham łączyć estetykę z funkcjonalnością. Pracuję z HTML, CSS, JavaScript oraz narzędziami jak Figma, React czy WordPress.</p>
-</section>
-
-<section id="projekty">
-  <h2>Wybrane projekty</h2>
+<section id="prace">
+  <h2>Moje prace:</h2>
 
   <div class="project">
-    <h3>🌤️ Aplikacja pogodowa</h3>
-    <p>Stworzona w React + API OpenWeather. Umożliwia szybkie sprawdzenie pogody w dowolnym mieście.</p>
-    <a href="#" target="_blank">Zobacz projekt</a>
+    <h3>🎥 Film na YouTube</h3>
+    <p>Link do mojego projektu znajdziesz tutaj:</p>
+    <p><a href="https://youtu.be/j-_v_xRv4Y4" target="_blank">https://youtu.be/j-_v_xRv4Y4</a></p>
   </div>
-
-  <div class="project">
-    <h3>🛍️ Sklep online z modą</h3>
-    <p>Prosty e-commerce z HTML/CSS i JavaScript. W pełni responsywny, gotowy do wdrożenia.</p>
-    <a href="#" target="_blank">Zobacz projekt</a>
-  </div>
-
-</section>
-
-<section id="kontakt">
-  <h2>Kontakt</h2>
-  <p>Masz pytanie lub chcesz współpracować?</p>
-  <p><strong>Email:</strong> <a href="mailto:twojemail@example.com">twojemail@example.com</a></p>
-  <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/twojprofil" target="_blank">linkedin.com/in/twojprofil</a></p>
 </section>
 
 <footer>
-  &copy; 2025 Twoje Imię. Wszelkie prawa zastrzeżone.
+  &copy; 2025 Gombka. Wszelkie prawa zastrzeżone.
 </footer>
 
 </body>
 </html>
-
