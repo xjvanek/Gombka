@@ -1,9 +1,4 @@
 
-<html lang="pl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gombka – Portfolio</title>
   <style>
     * {
       margin: 0;
@@ -129,7 +124,7 @@
   <div class="bg-shape shape3"></div>
 
   <header>
-    <h1>Gombka</h1>
+    <h1>Gombka - Młody Programista </h1>
     <p>Moje portfolio</p>
   </header>
 
@@ -141,7 +136,7 @@
   <section id="o-mnie" class="hover-wrapper">
     <div class="hidden-section">
       <h2>O mnie</h2>
-      <p>Cześć! Nazywam się Gombka. Interesuję się programowaniem, tworzeniem GUI oraz eksperymentowaniem z różnymi technologiami. Lubię uczyć się nowych rzeczy i realizować kreatywne projekty. Skupiam się na praktycznym podejściu do nauki – budując, testując i publikując swoje pomysły.</p>
+      <p>Cześć! Nazywam się Gombka. Interesuję się programowaniem, tworzeniem GUI oraz eksperymentowaniem z różnymi technologiami. Lubię uczyć się nowych rzeczy i realizować kreatywne projekty. Skupiam się na praktycznym podejściu do nauki – budując, testując i publikując swoje pomysły. Programuje od 2 lat (: </p>
     </div>
   </section>
 
