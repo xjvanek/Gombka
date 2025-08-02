@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
@@ -10,33 +10,28 @@
       margin: 0;
       padding: 0;
     }
-
     body {
       font-family: 'Segoe UI', sans-serif;
       background-color: #0d0d0d;
       color: #ffffff;
     }
-
     header {
       background: linear-gradient(135deg, #5e0066, #a000b0);
       padding: 100px 20px 60px;
       text-align: center;
     }
-
     header h1 {
       font-size: 4em;
       margin-bottom: 20px;
       font-weight: bold;
       letter-spacing: 2px;
     }
-
     nav {
       display: flex;
       justify-content: center;
       gap: 20px;
       flex-wrap: wrap;
     }
-
     .nav-btn {
       background: linear-gradient(to right, #800080, #e100ff);
       border: none;
@@ -48,18 +43,15 @@
       cursor: pointer;
       transition: transform 0.2s, box-shadow 0.3s;
     }
-
     .nav-btn:hover {
       transform: translateY(-3px);
       box-shadow: 0 5px 20px rgba(255, 0, 255, 0.4);
     }
-
     section {
       max-width: 900px;
       margin: auto;
       padding: 40px 20px;
     }
-
     .hover-reveal {
       position: relative;
       background-color: #1a1a1a;
@@ -69,16 +61,13 @@
       transition: background 0.3s;
       cursor: pointer;
     }
-
     .hover-reveal .content {
       opacity: 0;
       transition: opacity 0.4s ease;
     }
-
     .hover-reveal:hover .content {
       opacity: 1;
     }
-
     .project {
       background: #1e1e1e;
       padding: 25px;
@@ -87,16 +76,13 @@
       box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
       transition: background 0.3s;
     }
-
     .project .project-content {
       opacity: 0;
       transition: opacity 0.4s ease;
     }
-
     .project:hover .project-content {
       opacity: 1;
     }
-
     iframe {
       width: 100%;
       height: 400px;
@@ -104,7 +90,6 @@
       border-radius: 10px;
       margin-top: 15px;
     }
-
     footer {
       text-align: center;
       padding: 30px;
@@ -112,12 +97,10 @@
       color: #777;
       font-size: 0.9em;
     }
-
     h2, h3 {
       color: #fff;
       margin-bottom: 15px;
     }
-
     p {
       color: #ccc;
       line-height: 1.6;
