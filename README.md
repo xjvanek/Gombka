@@ -31,22 +31,22 @@
       justify-content: center;
       gap: 20px;
       flex-wrap: wrap;
-    }
-    .nav-btn {
-      background: linear-gradient(to right, #800080, #e100ff);
-      border: none;
-      border-radius: 30px;
-      padding: 15px 30px;
-      font-size: 1em;
-      font-weight: bold;
-      color: #fff;
-      cursor: pointer;
-      transition: transform 0.2s, box-shadow 0.3s;
-    }
-    .nav-btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 5px 20px rgba(255, 0, 255, 0.4);
-    }
+   .nav-btn {
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.nav-btn:hover {
+  background-color: #111;
+  color: #0ff;
+  border-color: #0ff;
+}
     section {
       max-width: 900px;
       margin: auto;
