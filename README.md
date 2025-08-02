@@ -43,15 +43,15 @@
             height: 250px;
             top: 450px;
             right: 50px;
-        }  
+        }
         .shape4 {
             width: 350px;
             height: 350px;
             bottom: 50px;
             left: 50px;
-            background: rgba(255, 255, 255, 0.08); /* Nowy kolor i przezroczystość */
-            filter: blur(100px); /* Większe rozmycie */
-        }      
+            background: rgba(255, 255, 255, 0.08);
+            filter: blur(100px);
+        }
         .shape5 {
             width: 200px;
             height: 200px;
@@ -121,7 +121,14 @@
         h3 {
             margin-bottom: 10px;
         }
-        iframe {
+        .video-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .video-container iframe {
+            flex: 1 1 45%;
             width: 100%;
             height: 315px;
             border: none;
@@ -138,7 +145,6 @@
         }
     </style>
 </head>
-
 <body>
     <div class="bg-shape shape1"></div>
     <div class="bg-shape shape2"></div>
@@ -152,6 +158,7 @@
     <nav>
         <button class="nav-btn" onclick="scrollToSection('o-mnie')">O mnie</button>
         <button class="nav-btn" onclick="scrollToSection('prace')">Moje prace</button>
+        <button class="nav-btn" onclick="scrollToSection('striker-rumble')">STRIKER RUMBLE</button>
     </nav>
     <section id="o-mnie" class="hover-wrapper">
         <div class="hidden-section">
@@ -162,9 +169,22 @@
     <section id="prace" class="hover-wrapper">
         <div class="hidden-section">
             <h2>Moje prace:</h2>
-            <h3>🎮 Projekt: Rzucanie pod GUI</h3>
-            <p>Podpiąłem rzucanie pod GUI – efekt możesz zobaczyć na poniższym wideo:</p>
-            <iframe src="https://www.youtube.com/embed/j-_v_xRv4Y4" allowfullscreen></iframe>
+            <div class="video-container">
+                <div>
+                    <h3>🎮 Projekt: Rzucanie pod GUI</h3>
+                    <iframe src="https://www.youtube.com/embed/j-_v_xRv4Y4" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <h3>🎮 Projekt: STRIKER RUMBLE</h3>
+                    <iframe src="https://youtu.be/OOAvHC6hWsk" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="striker-rumble" class="hover-wrapper">
+        <div class="hidden-section">
+            <h2>STRIKER RUMBLE</h2>
+            <p>Jestem deweloperem i pracuję przy tej grze. Cieszę się, że mogę tworzyć i rozwijać ją razem z zespołem, dodając nowe funkcje i ulepszenia.</p>
         </div>
     </section>
     <footer>
