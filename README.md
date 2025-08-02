@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
@@ -12,14 +12,12 @@
       color: #fff;
       overflow-x: hidden;
     }
-
     header {
       background: linear-gradient(135deg, #5e0066, #a000b0);
       padding: 100px 20px 60px;
       text-align: center;
       position: relative;
     }
-
     header h1 {
       font-size: 4em;
       margin: 0;
@@ -27,14 +25,12 @@
       color: #fff;
       letter-spacing: 2px;
     }
-
     nav {
       display: flex;
       justify-content: center;
       gap: 20px;
       margin-top: 30px;
     }
-
     .nav-btn {
       background: linear-gradient(to right, #800080, #e100ff);
       border: none;
@@ -46,18 +42,15 @@
       cursor: pointer;
       transition: transform 0.2s, box-shadow 0.3s;
     }
-
     .nav-btn:hover {
       transform: translateY(-3px);
       box-shadow: 0 5px 20px rgba(255, 0, 255, 0.4);
     }
-
     section {
       max-width: 900px;
       margin: auto;
       padding: 40px 20px;
     }
-
     .hidden-section {
       background: #1a1a1a;
       border-radius: 12px;
@@ -66,15 +59,12 @@
       transition: opacity 0.4s ease;
       box-shadow: 0 0 10px rgba(255, 0, 255, 0.1);
     }
-
     .hover-wrapper {
       cursor: pointer;
     }
-
     .hover-wrapper:hover .hidden-section {
       opacity: 1;
     }
-
     .project {
       background: #1e1e1e;
       padding: 25px;
@@ -83,16 +73,13 @@
       box-shadow: 0 0 10px rgba(0, 255, 255, 0.1);
       cursor: pointer;
     }
-
     .project-content {
       opacity: 0;
       transition: opacity 0.4s ease;
     }
-
     .project:hover .project-content {
       opacity: 1;
     }
-
     iframe {
       width: 100%;
       height: 400px;
@@ -100,7 +87,6 @@
       border-radius: 10px;
       margin-top: 15px;
     }
-
     footer {
       text-align: center;
       padding: 30px;
@@ -150,4 +136,3 @@
 
 </body>
 </html>
-
